@@ -1,0 +1,12 @@
+order_id,order_date,customer_id,customer_name,customer_city,product_id,product_name,category,quantity,unit_price
+ORD034,2026-01-06,,Kofi Owusu,Kumasi,PROD004,Product 4,Clothing,4,70.0
+ORD041,2026-01-13,CUST001,Ama Mensah,Accra,,Product 1,Electronics,1,25.0
+ORD048,,CUST008,Kojo Owusu,Tema,PROD008,Product 8,Home,3,55.0
+ORD069,2026-01-13,CUST009,Afia Boateng,Accra,PROD009,,Electronics,4,70.0
+ORD055,,CUST015,Abdul Rahman,Takoradi,PROD005,Product 5,Food,5,90.0
+ORD006,2026-01-06 00:00:00,CUST006,Yaw Mensah,Kumasi,PROD006,Product 6,Clothing,0,25.0
+ORD013,2026-01-13 00:00:00,CUST013,Akua Mensah,Accra,PROD003,Product 3,Electronics,-3,55.0
+ORD020,2026-01-20 00:00:00,CUST020,Michael Owusu,Tema,PROD010,Product 10,Home,5,0.0
+ORD027,2026-01-27 00:00:00,CUST007,Adwoa Asante,Takoradi,PROD007,Product 7,Food,2,-25.0
+ORD001,2026-01-20 00:00:00,CUST016,Mavis Asante,Tema,PROD006,Product 6,Home,1,25.0
+ORD011,2026-01-04 00:00:00,CUST008,Kojo Owusu,Tema,PROD008,Product 8,Home,3,55.0
