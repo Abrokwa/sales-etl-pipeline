@@ -1,8 +1,8 @@
-\# Sales ETL Pipeline
+# Sales ETL Pipeline
 
 
 
-\## Summary
+## Summary
 
 
 
@@ -22,9 +22,9 @@ The project also includes pipeline logging to record successful and failed execu
 
 
 
-\## Pipeline
+## Pipeline
 
 
 
-CSV → Python/Pandas → Cleaning → Data Quality Checks → MySQL Star Schema → SQL Analysis
+CSV → Python → Cleaning → Data Quality Checks → MySQL Star Schema → SQL Analysis
 
