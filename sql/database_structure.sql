@@ -30,7 +30,7 @@ CREATE TABLE dim_date(
 
 CREATE TABLE fact_sales(
     sales_key INT AUTO_INCREMENT PRIMARY KEY,
-    order_id INT NOT NULL UNIQUE,
+    order_id VARCHAR(20) NOT NULL UNIQUE,
     date_key INT NOT NULL,
     customer_key INT NOT NULL,
     product_key INT NOT NULL,

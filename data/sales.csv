@@ -1,101 +1,101 @@
 order_id,order_date,customer_id,customer_name,customer_city,product_id,product_name,category,quantity,unit_price
-1001,2026-01-01,C002,Ama Boateng,Kumasi,P001,Laptop,Electronics,3,4500
-1002,2026-01-02,C004,Efua Owusu,Accra,P004,Keyboard,Electronics,2,300
-1003,2026-01-03,C002,Ama Boateng,Kumasi,P009,Webcam,Electronics,1,700
-1004,2026-01-04,C010,Yaw Mensah,Kumasi,P007,Headphones,Electronics,1,500
-1005,2026-01-05,C001,John Mensah,Accra,P002,Mouse,Electronics,2,150
-1006,2026-01-06,C004,Efua Owusu,Accra,P009,Webcam,Electronics,1,700
-1007,2026-01-07,C009,Akosua Frimpong,Accra,P004,Keyboard,Electronics,4,300
-1008,2026-01-08,C004,Efua Owusu,Accra,P008,Bookshelf,Furniture,3,950
-1009,2026-01-09,C001,John Mensah,Accra,P003,Office Chair,Furniture,4,850
-1010,2026-01-10,C006,Abena Yeboah,Accra,P005,Desk,Furniture,2,1200
-1011,2026-01-11,C004,Efua Owusu,Accra,P006,Monitor,Electronics,1,1800
-1012,2026-01-12,C002,Ama Boateng,Kumasi,P007,Headphones,Electronics,1,500
-1013,2026-01-13,C006,Abena Yeboah,Accra,P006,Monitor,Electronics,3,1800
-1014,2026-01-14,C001,John Mensah,Accra,P008,Bookshelf,Furniture,1,950
-1015,2026-01-15,C007,Yaa Ofori,Tema,P002,Mouse,Electronics,3,150
-1016,2026-01-16,C010,Yaw Mensah,Kumasi,P006,Monitor,Electronics,2,1800
-1017,2026-01-17,C002,Ama Boateng,Kumasi,P001,Laptop,Electronics,2,4500
-1018,2026-01-18,C005,Kojo Addo,Cape Coast,P002,Mouse,Electronics,2,150
-1019,2026-01-19,C002,Ama Boateng,Kumasi,P007,Headphones,Electronics,3,500
-1020,2026-01-20,C008,Kwame Darko,Koforidua,P006,Monitor,Electronics,2,1800
-1021,2026-01-21,C006,Abena Yeboah,Accra,P006,Monitor,Electronics,2,1800
-1022,2026-01-22,C005,Kojo Addo,Cape Coast,P002,Mouse,Electronics,2,150
-1023,2026-01-23,C009,Akosua Frimpong,Accra,P004,Keyboard,Electronics,2,300
-1024,2026-01-24,C008,Kwame Darko,Koforidua,P007,Headphones,Electronics,3,500
-1025,2026-01-25,C009,Akosua Frimpong,Accra,P004,Keyboard,Electronics,3,300
-1026,2026-01-26,C001,John Mensah,Accra,P004,Keyboard,Electronics,1,300
-1027,2026-01-27,C006,Abena Yeboah,Accra,P007,Headphones,Electronics,3,500
-1028,2026-01-28,C002,Ama Boateng,Kumasi,P004,Keyboard,Electronics,3,300
-1029,2026-01-29,C004,Efua Owusu,Accra,P008,Bookshelf,Furniture,4,950
-1030,2026-01-30,C008,Kwame Darko,Koforidua,P003,Office Chair,Furniture,3,850
-1031,2026-01-31,C003,Kofi Asante,Takoradi,P004,Keyboard,Electronics,3,300
-1032,2026-01-01,C010,Yaw Mensah,Kumasi,P007,Headphones,Electronics,4,500
-1033,2026-01-02,C006,Abena Yeboah,Accra,P004,Keyboard,Electronics,2,300
-1034,2026-01-03,C009,Akosua Frimpong,Accra,P008,Bookshelf,Furniture,1,950
-1035,2026-01-04,C001,John Mensah,Accra,P002,Mouse,Electronics,2,150
-1036,2026-01-05,C003,Kofi Asante,Takoradi,P007,Headphones,Electronics,1,500
-1037,2026-01-06,C007,Yaa Ofori,Tema,P007,Headphones,Electronics,4,500
-1038,2026-01-07,C009,Akosua Frimpong,Accra,P005,Desk,Furniture,1,1200
-1039,2026-01-08,C002,Ama Boateng,Kumasi,P009,Webcam,Electronics,3,700
-1040,2026-01-09,C006,Abena Yeboah,Accra,P002,Mouse,Electronics,3,150
-1041,2026-01-10,C007,Yaa Ofori,Tema,P003,Office Chair,Furniture,4,850
-1042,2026-01-11,C001,John Mensah,Accra,P005,Desk,Furniture,2,1200
-1043,2026-01-12,C009,Akosua Frimpong,Accra,P002,Mouse,Electronics,3,150
-1044,2026-01-13,C009,Akosua Frimpong,Accra,P010,Filing Cabinet,Furniture,2,1100
-1045,2026-01-14,C003,Kofi Asante,Takoradi,P006,Monitor,Electronics,2,1800
-1046,2026-01-15,C009,Akosua Frimpong,Accra,P009,Webcam,Electronics,1,700
-1047,2026-01-16,C010,Yaw Mensah,Kumasi,P006,Monitor,Electronics,4,1800
-1048,2026-01-17,C001,John Mensah,Accra,P002,Mouse,Electronics,3,150
-1049,2026-01-18,C005,Kojo Addo,Cape Coast,P004,Keyboard,Electronics,1,300
-1050,2026-01-19,C004,Efua Owusu,Accra,P010,Filing Cabinet,Furniture,1,1100
-1051,2026-01-20,C002,Ama Boateng,Kumasi,P008,Bookshelf,Furniture,1,950
-1052,2026-01-21,C009,Akosua Frimpong,Accra,P003,Office Chair,Furniture,2,850
-1053,2026-01-22,C008,Kwame Darko,Koforidua,P009,Webcam,Electronics,2,700
-1054,2026-01-23,C005,Kojo Addo,Cape Coast,P009,Webcam,Electronics,4,700
-1055,2026-01-24,C004,Efua Owusu,Accra,P009,Webcam,Electronics,2,700
-1056,2026-01-25,C005,Kojo Addo,Cape Coast,P007,Headphones,Electronics,3,500
-1057,2026-01-26,C008,Kwame Darko,Koforidua,P009,Webcam,Electronics,4,700
-1058,2026-01-27,C002,Ama Boateng,Kumasi,P004,Keyboard,Electronics,2,300
-1059,2026-01-28,C002,Ama Boateng,Kumasi,P006,Monitor,Electronics,1,1800
-1060,2026-01-29,C010,Yaw Mensah,Kumasi,P009,Webcam,Electronics,2,700
-1061,2026-01-30,C010,Yaw Mensah,Kumasi,P004,Keyboard,Electronics,1,300
-1062,2026-01-31,C002,Ama Boateng,Kumasi,P001,Laptop,Electronics,2,4500
-1063,2026-01-01,C002,Ama Boateng,Kumasi,P001,Laptop,Electronics,3,4500
-1064,2026-01-02,C002,Ama Boateng,Kumasi,P009,Webcam,Electronics,2,700
-1065,2026-01-03,C005,Kojo Addo,Cape Coast,P008,Bookshelf,Furniture,2,950
-1066,2026-01-04,C009,Akosua Frimpong,Accra,P003,Office Chair,Furniture,4,850
-1067,2026-01-05,C004,Efua Owusu,Accra,P008,Bookshelf,Furniture,4,950
-1068,2026-01-06,C004,Efua Owusu,Accra,P002,Mouse,Electronics,1,150
-1069,2026-01-07,C007,Yaa Ofori,Tema,P006,Monitor,Electronics,4,1800
-1070,2026-01-08,C007,Yaa Ofori,Tema,P008,Bookshelf,Furniture,1,950
-1071,2026-01-09,C002,Ama Boateng,Kumasi,P001,Laptop,Electronics,4,4500
-1072,2026-01-10,C006,Abena Yeboah,Accra,P002,Mouse,Electronics,2,150
-1073,2026-01-11,C004,Efua Owusu,Accra,P004,Keyboard,Electronics,4,300
-1074,2026-01-12,C003,Kofi Asante,Takoradi,P007,Headphones,Electronics,2,500
-1075,2026-01-13,C005,Kojo Addo,Cape Coast,P008,Bookshelf,Furniture,2,950
-1076,2026-01-14,C002,Ama Boateng,Kumasi,P008,Bookshelf,Furniture,1,950
-1077,2026-01-15,C001,John Mensah,Accra,P009,Webcam,Electronics,1,700
-1078,2026-01-16,C002,Ama Boateng,Kumasi,P004,Keyboard,Electronics,2,300
-1079,2026-01-17,C007,Yaa Ofori,Tema,P008,Bookshelf,Furniture,4,950
-1080,2026-01-18,C004,Efua Owusu,Accra,P007,Headphones,Electronics,1,500
-1081,2026-01-19,C003,Kofi Asante,Takoradi,P007,Headphones,Electronics,1,500
-1082,2026-01-20,C007,Yaa Ofori,Tema,P005,Desk,Furniture,4,1200
-1083,2026-01-21,C005,Kojo Addo,Cape Coast,P007,Headphones,Electronics,4,500
-1084,2026-01-22,C003,Kofi Asante,Takoradi,P004,Keyboard,Electronics,3,300
-1085,2026-01-23,C004,Efua Owusu,Accra,P001,Laptop,Electronics,1,4500
-1086,2026-01-24,C006,Abena Yeboah,Accra,P001,Laptop,Electronics,1,4500
-1087,2026-01-25,C010,Yaw Mensah,Kumasi,P008,Bookshelf,Furniture,2,950
-1088,2026-01-26,C001,John Mensah,Accra,P009,Webcam,Electronics,1,700
-1089,2026-01-27,C003,Kofi Asante,Takoradi,P002,Mouse,Electronics,1,150
-1090,2026-01-28,C004,Efua Owusu,Accra,P007,Headphones,Electronics,1,500
-1091,2026-01-29,C010,Yaw Mensah,Kumasi,P004,Keyboard,Electronics,1,300
-1092,2026-01-30,C010,Yaw Mensah,Kumasi,P002,Mouse,Electronics,4,150
-1093,2026-01-31,C010,Yaw Mensah,Kumasi,P010,Filing Cabinet,Furniture,3,1100
-1094,2026-01-01,C005,Kojo Addo,Cape Coast,P004,Keyboard,Electronics,3,300
-1095,2026-01-02,C004,Efua Owusu,Accra,P005,Desk,Furniture,4,1200
-1096,2026-01-03,C003,Kofi Asante,Takoradi,P005,Desk,Furniture,4,1200
-1097,2026-01-04,C006,Abena Yeboah,Accra,P002,Mouse,Electronics,1,150
-1098,2026-01-05,C008,Kwame Darko,Koforidua,P010,Filing Cabinet,Furniture,1,1100
-1099,2026-01-06,C002,Ama Boateng,Kumasi,P009,Webcam,Electronics,2,700
-1100,2026-01-07,C009,Akosua Frimpong,Accra,P005,Desk,Furniture,2,1200
+ORD001,2026-01-01,CUST001,Ama Mensah,Accra,PROD001,Product 1,Electronics,1,25.0
+ORD002,2026-01-02,CUST002,Kofi Asante,Kumasi,PROD002,Product 2,Clothing,2,40.0
+ORD003,2026-01-03,CUST003,Akosua Owusu,Takoradi,PROD003,Product 3,Food,3,55.0
+ORD004,2026-01-04,CUST004,Kwame Boateng,Tema,PROD004,Product 4,Home,4,70.0
+ORD005,2026-01-05,CUST005,Abena Osei,Accra,PROD005,Product 5,Electronics,5,90.0
+ORD006,2026-01-06,CUST006,Yaw Mensah,Kumasi,PROD006,Product 6,Clothing,0,25.0
+ORD007,2026-01-07,CUST007,Adwoa Asante,Takoradi,PROD007,Product 7,Food,2,40.0
+ORD008,2026-01-08,CUST008,Kojo Owusu,Tema,PROD008,Product 8,Home,3,55.0
+ORD009,2026-01-09,CUST009,Afia Boateng,Accra,PROD009,Product 9,Electronics,4,70.0
+ORD010,2026-01-10,CUST010,Kwesi Mensah,Kumasi,PROD010,Product 10,Clothing,5,90.0
+ORD011,2026-01-11,CUST011,Esi Owusu,Takoradi,PROD001,Product 1,Food,1,25.0
+ORD012,2026-01-12,CUST012,Kwadwo Osei,Tema,PROD002,Product 2,Home,2,40.0
+ORD013,2026-01-13,CUST013,Akua Mensah,Accra,PROD003,Product 3,Electronics,-3,55.0
+ORD014,2026-01-14,CUST014,Kofi Owusu,Kumasi,PROD004,Product 4,Clothing,4,70.0
+ORD015,2026-01-15,CUST015,Abdul Rahman,Takoradi,PROD005,Product 5,Food,5,90.0
+ORD016,2026-01-16,CUST016,Mavis Asante,Tema,PROD006,Product 6,Home,1,25.0
+ORD017,2026-01-17,CUST017,Yaw Osei,Accra,PROD007,Product 7,Electronics,2,40.0
+ORD018,2026-01-18,CUST018,Adjoa Mensah,Kumasi,PROD008,Product 8,Clothing,3,55.0
+ORD019,2026-01-19,CUST019,Daniel Boateng,Takoradi,PROD009,Product 9,Food,4,70.0
+ORD020,2026-01-20,CUST020,Michael Owusu,Tema,PROD010,Product 10,Home,5,0.0
+ORD021,2026-01-21,CUST001,Ama Mensah,Accra,PROD001,Product 1,Electronics,1,25.0
+ORD022,2026-01-22,CUST002,Kofi Asante,Kumasi,PROD002,Product 2,Clothing,2,40.0
+ORD023,2026-01-23,CUST003,Akosua Owusu,Takoradi,PROD003,Product 3,Food,3,55.0
+ORD024,2026-01-24,CUST004,Kwame Boateng,Tema,PROD004,Product 4,Home,4,70.0
+ORD025,2026-01-25,CUST005,Abena Osei,Accra,PROD005,Product 5,Electronics,5,90.0
+ORD026,2026-01-26,CUST006,Yaw Mensah,Kumasi,PROD006,Product 6,Clothing,1,25.0
+ORD027,2026-01-27,CUST007,Adwoa Asante,Takoradi,PROD007,Product 7,Food,2,-25.0
+ORD028,2026-01-28,CUST008,Kojo Owusu,Tema,PROD008,Product 8,Home,3,55.0
+ORD029,2026-01-01,CUST009,Afia Boateng,Accra,PROD009,Product 9,Electronics,4,70.0
+ORD030,2026-01-02,CUST010,Kwesi Mensah,Kumasi,PROD010,Product 10,Clothing,5,90.0
+ORD031,2026-01-03,CUST011,Esi Owusu,Takoradi,PROD001,Product 1,Food,1,25.0
+ORD032,2026-01-04,CUST012,Kwadwo Osei,Tema,PROD002,Product 2,Home,2,40.0
+ORD033,2026-01-05,CUST013,Akua Mensah,Accra,PROD003,Product 3,Electronics,3,55.0
+ORD034,2026-01-06,,Kofi Owusu,Kumasi,PROD004,Product 4,Clothing,4,70.0
+ORD035,2026-01-07,CUST015,Abdul Rahman,Takoradi,PROD005,Product 5,Food,5,90.0
+ORD036,2026-01-08,CUST016,Mavis Asante,Tema,PROD006,Product 6,Home,1,25.0
+ORD037,2026-01-09,CUST017,Yaw Osei,Accra,PROD007,Product 7,Electronics,2,40.0
+ORD038,2026-01-10,CUST018,Adjoa Mensah,Kumasi,PROD008,Product 8,Clothing,3,55.0
+ORD039,2026-01-11,CUST019,Daniel Boateng,Takoradi,PROD009,Product 9,Food,4,70.0
+ORD040,2026-01-12,CUST020,Michael Owusu,Tema,PROD010,Product 10,Home,5,90.0
+ORD041,2026-01-13,CUST001,Ama Mensah,Accra,,Product 1,Electronics,1,25.0
+ORD042,2026-01-14,CUST002,Kofi Asante,Kumasi,PROD002,Product 2,Clothing,2,40.0
+ORD043,2026-01-15,CUST003,Akosua Owusu,Takoradi,PROD003,Product 3,Food,3,55.0
+ORD044,2026-01-16,CUST004,Kwame Boateng,Tema,PROD004,Product 4,Home,4,70.0
+ORD045,2026-01-17,CUST005,Abena Osei,Accra,PROD005,Product 5,Electronics,5,90.0
+ORD046,2026-01-18,CUST006,Yaw Mensah,Kumasi,PROD006,Product 6,Clothing,1,25.0
+ORD047,2026-01-19,CUST007,Adwoa Asante,Takoradi,PROD007,Product 7,Food,2,40.0
+ORD048,,CUST008,Kojo Owusu,Tema,PROD008,Product 8,Home,3,55.0
+ORD049,2026-01-21,CUST009,Afia Boateng,Accra,PROD009,Product 9,Electronics,4,70.0
+ORD050,2026-01-22,CUST010,Kwesi Mensah,Kumasi,PROD010,Product 10,Clothing,5,90.0
+ORD051,2026-01-23,CUST011,Esi Owusu,Takoradi,PROD001,Product 1,Food,1,25.0
+ORD052,2026-01-24,CUST012,Kwadwo Osei,Tema,PROD002,Product 2,Home,2,40.0
+ORD053,2026-01-25,CUST013,Akua Mensah,Accra,PROD003,Product 3,Electronics,3,55.0
+ORD054,2026-01-26,CUST014,Kofi Owusu,Kumasi,PROD004,Product 4,Clothing,4,70.0
+ORD055,not-a-date,CUST015,Abdul Rahman,Takoradi,PROD005,Product 5,Food,5,90.0
+ORD056,2026-01-28,CUST016,Mavis Asante,Tema,PROD006,Product 6,Home,1,25.0
+ORD057,2026-01-01,CUST017,Yaw Osei,Accra,PROD007,Product 7,Electronics,2,40.0
+ORD058,2026-01-02,CUST018,Adjoa Mensah,Kumasi,PROD008,Product 8,Clothing,3,55.0
+ORD059,2026-01-03,CUST019,Daniel Boateng,Takoradi,PROD009,Product 9,Food,4,70.0
+ORD060,2026-01-04,CUST020,Michael Owusu,Tema,PROD010,Product 10,Home,5,90.0
+ORD061,2026-01-05,CUST001,Ama Mensah,Accra,PROD001,Product 1,Electronics,1,25.0
+ORD062,2026-01-06,CUST002,Kofi Asante,Kumasi,PROD002,Product 2,Clothing,2,40.0
+ORD063,2026-01-07,CUST003,Akosua Owusu,Takoradi,PROD003,Product 3,Food,3,55.0
+ORD064,2026-01-08,CUST004,Kwame Boateng,Tema,PROD004,Product 4,Home,4,70.0
+ORD065,2026-01-09,CUST005,Abena Osei,Accra,PROD005,Product 5,Electronics,5,90.0
+ORD066,2026-01-10,CUST006,Yaw Mensah,Kumasi,PROD006,Product 6,Clothing,1,25.0
+ORD067,2026-01-11,CUST007,Adwoa Asante,Takoradi,PROD007,Product 7,Food,2,40.0
+ORD068,2026-01-12,CUST008,Kojo Owusu,Tema,PROD008,Product 8,Home,3,55.0
+ORD069,2026-01-13,CUST009,Afia Boateng,Accra,PROD009,,Electronics,4,70.0
+ORD070,2026-01-14,CUST010,Kwesi Mensah,Kumasi,PROD010,Product 10,Clothing,5,90.0
+ORD071,2026-01-15,CUST011,Esi Owusu,Takoradi,PROD001,Product 1,Food,1,25.0
+ORD072,2026-01-16,CUST012,Kwadwo Osei,Tema,PROD002,Product 2,Home,2,40.0
+ORD073,2026-01-17,CUST013,Akua Mensah,Accra,PROD003,Product 3,Electronics,3,55.0
+ORD074,2026-01-18,CUST014,Kofi Owusu,Kumasi,PROD004,Product 4,Clothing,4,70.0
+ORD075,2026-01-19,CUST015,Abdul Rahman,Takoradi,PROD005,Product 5,Food,5,90.0
+ORD001,2026-01-20,CUST016,Mavis Asante,Tema,PROD006,Product 6,Home,1,25.0
+ORD077,2026-01-21,CUST017,Yaw Osei,Accra,PROD007,Product 7,Electronics,2,40.0
+ORD078,2026-01-22,CUST018,Adjoa Mensah,Kumasi,PROD008,Product 8,Clothing,3,55.0
+ORD079,2026-01-23,CUST019,Daniel Boateng,Takoradi,PROD009,Product 9,Food,4,70.0
+ORD080,2026-01-24,CUST020,Michael Owusu,Tema,PROD010,Product 10,Home,5,90.0
+ORD081,2026-01-25,CUST001,Ama Mensah,Accra,PROD001,Product 1,Electronics,1,25.0
+ORD082,2026-01-26,CUST002,Kofi Asante,Kumasi,PROD002,Product 2,Clothing,2,40.0
+ORD083,2026-01-27,CUST003,Akosua Owusu,Takoradi,PROD003,Product 3,Food,3,55.0
+ORD084,2026-01-28,CUST004,Kwame Boateng,Tema,PROD004,Product 4,Home,4,70.0
+ORD085,2026-01-01,CUST005,Abena Osei,Accra,PROD005,Product 5,Electronics,5,90.0
+ORD086,2026-01-02,CUST006,Yaw Mensah,Kumasi,PROD006,Product 6,Clothing,1,25.0
+ORD087,2026-01-03,CUST007,Adwoa Asante,Takoradi,PROD007,Product 7,Food,2,40.0
+ORD011,2026-01-04,CUST008,Kojo Owusu,Tema,PROD008,Product 8,Home,3,55.0
+ORD089,2026-01-05,CUST009,Afia Boateng,Accra,PROD009,Product 9,Electronics,4,70.0
+ORD090,2026-01-06,CUST010,Kwesi Mensah,Kumasi,PROD010,Product 10,Clothing,5,90.0
+ORD091,2026-01-07,CUST011,Esi Owusu,Takoradi,PROD001,Product 1,Food,1,25.0
+ORD092,2026-01-08,CUST012,Kwadwo Osei,Tema,PROD002,Product 2,Home,2,40.0
+ORD093,2026-01-09,CUST013,Akua Mensah,Accra,PROD003,Product 3,Electronics,3,55.0
+ORD094,2026-01-10,CUST014,Kofi Owusu,Kumasi,PROD004,Product 4,Clothing,4,70.0
+ORD095,2026-01-11,CUST015,Abdul Rahman,Takoradi,PROD005,Product 5,Food,5,90.0
+ORD096,2026-01-12,CUST016,Mavis Asante,Tema,PROD006,Product 6,Home,1,25.0
+ORD097,2026-01-13,CUST017,Yaw Osei,Accra,PROD007,Product 7,Electronics,2,40.0
+ORD098,2026-01-14,CUST018,Adjoa Mensah,Kumasi,PROD008,Product 8,Clothing,3,55.0
+ORD099,2026-01-15,CUST019,Daniel Boateng,Takoradi,PROD009,Product 9,Food,4,70.0
+ORD100,2026-01-16,CUST020,Michael Owusu,Tema,PROD010,Product 10,Home,5,90.0

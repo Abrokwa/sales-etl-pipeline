@@ -2,90 +2,110 @@ import pandas as pd
 
 
 def clean_sales_data(df):
-    # Start with a copy so we don't change the original data
-    clean_df = df.copy()
 
-    # This will store records that we reject
-    quarantine = []
+    # Make a copy so the original data is not changed
+    df = df.copy()
 
-    # Remove completely empty rows
-    clean_df = clean_df.dropna(how="all")
+    # Store records that fail our cleaning rules
+    bad_records = pd.DataFrame()
 
-    # Find duplicate orders
-    duplicates = clean_df[
-        clean_df["order_id"].duplicated(keep="first")
-    ].copy()
 
-    # Record why duplicate records were rejected
-    for _, row in duplicates.iterrows():
-        quarantine.append({
-            "order_id": row["order_id"],
-            "reason": "Duplicate order ID"
-        })
+    # ---------------------------------------------------------
+    # 1. Treat empty strings as missing values
+    # ---------------------------------------------------------
 
-    # Keep only the first occurrence of each order
-    clean_df = clean_df.drop_duplicates(
-        subset=["order_id"],
+    required_columns = [
+        "order_id",
+        "order_date",
+        "customer_id",
+        "customer_name",
+        "product_id",
+        "product_name",
+    ]
+
+    # Convert empty spaces such as "" into missing values
+    df[required_columns] = df[required_columns].replace(
+        r"^\s*$",
+        pd.NA,
+        regex=True
+    )
+
+    missing_data = df[required_columns].isna().any(axis=1)
+
+    bad_records = pd.concat(
+        [bad_records, df[missing_data]]
+    )
+
+    df = df[~missing_data]
+
+
+    # ---------------------------------------------------------
+    # 2. Check that order dates are valid
+    # ---------------------------------------------------------
+
+    df["order_date"] = pd.to_datetime(
+        df["order_date"],
+        errors="coerce"
+    )
+
+    invalid_dates = df["order_date"].isna()
+
+    bad_records = pd.concat(
+        [bad_records, df[invalid_dates]]
+    )
+
+    df = df[~invalid_dates]
+
+
+    # ---------------------------------------------------------
+    # 3. Check quantity
+    # ---------------------------------------------------------
+
+    invalid_quantity = df["quantity"] <= 0
+
+    bad_records = pd.concat(
+        [bad_records, df[invalid_quantity]]
+    )
+
+    df = df[~invalid_quantity]
+
+
+    # ---------------------------------------------------------
+    # 4. Check unit price
+    # ---------------------------------------------------------
+
+    invalid_price = df["unit_price"] <= 0
+
+    bad_records = pd.concat(
+        [bad_records, df[invalid_price]]
+    )
+
+    df = df[~invalid_price]
+
+
+    # ---------------------------------------------------------
+    # 5. Check duplicate orders
+    # ---------------------------------------------------------
+
+    duplicate_orders = df["order_id"].duplicated(
         keep="first"
     )
 
-    # Make sure quantity and price are numbers
-    clean_df["quantity"] = pd.to_numeric(
-        clean_df["quantity"],
-        errors="coerce"
+    bad_records = pd.concat(
+        [bad_records, df[duplicate_orders]]
     )
 
-    clean_df["unit_price"] = pd.to_numeric(
-        clean_df["unit_price"],
-        errors="coerce"
+    df = df[~duplicate_orders]
+
+
+    # ---------------------------------------------------------
+    # 6. Remove duplicate records from quarantine
+    # ---------------------------------------------------------
+
+    bad_records = bad_records.drop_duplicates(
+        subset=["order_id"]
     )
 
-    # Find records with invalid quantities
-    invalid_quantity = clean_df[
-        clean_df["quantity"].isna() |
-        (clean_df["quantity"] <= 0)
-    ].copy()
 
-    # Record the rejected orders
-    for _, row in invalid_quantity.iterrows():
-        quarantine.append({
-            "order_id": row["order_id"],
-            "reason": "Invalid quantity"
-        })
-
-    # Keep only valid quantities
-    clean_df = clean_df[
-        clean_df["quantity"].notna() &
-        (clean_df["quantity"] > 0)
-    ]
-
-    # Find records with invalid prices
-    invalid_price = clean_df[
-        clean_df["unit_price"].isna() |
-        (clean_df["unit_price"] <= 0)
-    ].copy()
-
-    # Record the rejected orders
-    for _, row in invalid_price.iterrows():
-        quarantine.append({
-            "order_id": row["order_id"],
-            "reason": "Invalid unit price"
-        })
-
-    # Keep only valid prices
-    clean_df = clean_df[
-        clean_df["unit_price"].notna() &
-        (clean_df["unit_price"] > 0)
-    ]
-
-    # Turn our quarantine list into a DataFrame
-    quarantine_df = pd.DataFrame(
-        quarantine,
-        columns=["order_id", "reason"]
-    )
-
-    print(f"Clean records: {len(clean_df)}")
-    print(f"Quarantined records: {len(quarantine_df)}")
-
-    # Return both the good data and rejected data
-    return clean_df, quarantine_df
+    # Return good data and bad data separately
+    return df, bad_records
