@@ -83,7 +83,7 @@ def main():
     if not quarantine_df.empty:
 
         quarantine_df.to_csv(
-            "logs/quarantine.csv",
+            "data/quarantine.csv",
             index=False
         )
 
